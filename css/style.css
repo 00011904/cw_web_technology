@@ -230,6 +230,13 @@ img {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
 }
 
+.flex{
+    position: relative;
+    margin-top: 1rem;
+    background-color: #fffdf6;
+    margin-left: 15px
+}
+
 .link {
     linear-gradient(to right, #f6d365, #fda085);
     color: #efdfdf;
