@@ -1,37 +1,37 @@
-*{
+* {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-body{
+body {
     background-color: #f5f5f5;
 }
 
-.navbar>ul {
+.navbar > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
 }
-.navbar
- {
+
+.navbar {
     margin: auto;
     width: 100%;
     padding: 10px;
 }
 
-.container{
+.container {
     margin: auto;
     width: 100%;
     padding: 10px 0px;
 }
 
-.navbar>ul>li {
+.navbar > ul > li {
     float: left;
 }
 
-li a {
+.navbar > ul > li > a {
     display: block;
     color: white;
     text-align: center;
@@ -40,16 +40,33 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.navbar > ul > li > a:hover {
     background-color: #111;
 }
+a{
+    text-decoration: none;
+}
+
 .active {
     background-color: #04AA6D;
 }
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -82,11 +99,11 @@ img {vertical-align: middle;}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
-.btn{
+.btn {
     padding: 0.85rem 1.2rem;
     width: 150px;
     height: 50px;
@@ -94,24 +111,31 @@ img {vertical-align: middle;}
     background-color: #4183b2;
     color: white;
     border-radius: 8px;
-    transition:1s all;
+    transition: 1s all;
     margin-top: 10px;
 }
-.btn:hover{
+
+.btn:hover {
     border-radius: 50px;
 
     border: none;
 }
-.btn:active{
+
+.btn:active {
     background-color: seagreen;
     border: none;
 }
-button:focus {outline:0;}
-.best{
+
+button:focus {
+    outline: 0;
+}
+
+.best {
     margin-top: 15px;
     text-align: center;
     color: #717171;
 }
+
 .text {
     color: #f2f2f2;
     font-size: 60px;
@@ -119,21 +143,24 @@ button:focus {outline:0;}
     position: absolute;
     bottom: 30%;
     width: 100%;
-    text-align:left;
+    text-align: left;
 
 }
-.word{
+
+.word {
     box-sizing: border-box;
     width: 100%;
     text-align: center;
     padding: 0.5rem;
     margin-top: 20px;
 }
-.star{
+
+.star {
     color: goldenrod !important;
     font-size: 18px;
     margin: 0;
 }
+
 /* Number text (1/3 etc) */
 .numbertext {
     color: #f2f2f2;
@@ -166,26 +193,31 @@ button:focus {outline:0;}
     animation-name: fade;
     animation-duration: 1.5s;
 }
-.block{
+
+.block {
     display: flex;
     justify-content: center;
     width: 90%;
 }
-.shape1{
+
+.shape1 {
     position: absolute;
     left: 220px;
     top: 10px;
     width: 150px;
 }
-.shape2{
+
+.shape2 {
     position: absolute;
     width: 133px;
     bottom: 100px;
     right: 195px;
 }
-img{
+
+img {
     width: 100%;
 }
+
 .box {
     position: relative;
     margin-top: 1rem;
@@ -193,43 +225,56 @@ img{
     transition: all 1s;
     margin-left: 15px;
 }
-.box:hover{
-     box-shadow: 0 10px 10px rgba(0,0,0,1);
+
+.box:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
 }
 
-.link{
+.link {
+    linear-gradient(to right, #f6d365, #fda085);
     color: #efdfdf;
     font-size: 30px;
-    padding: 8px 25%;
+    padding: 8px 27%;
     position: absolute;
-    bottom: 30%;
+    bottom: 35%;
     width: 100%;
-    text-align:left;
+    text-align: left;
 
 }
-.offers{
+.link>p{
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.offers {
     width: 350px;
     text-align: center;
-
-
 }
-.offer_word{
-    font-size:15px;
+.block>.box>a>img{
+    width: 350px;height: 300px
+}
+
+.offer_word {
+    font-size: 15px;
     color: #717171;
     margin-top: 10px;
 }
-.offer{
+
+.offer {
     font-size: 20px;
     color: #04AA6D;
     margin-top: 10px;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
     width: 1078px;
 
 }
-.footer>ul{
+
+.footer > ul {
 
     list-style-type: none;
     margin: 1px 15px;
@@ -238,26 +283,39 @@ img{
     margin-right: 30px;
 
 }
-.footer>ul>li{
+
+.footer > ul > li {
     margin-top: 1rem;
     color: #717171;
     font-size: 13px;
 
 }
-.contacts{
+
+.contacts {
     /*margin-left: 100px;*/
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}}
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
