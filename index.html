@@ -3,75 +3,338 @@
 <head>
     <meta charset="UTF-8">
     <title>E-Commerce</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="container">
-    <div class="navbar">
+    <navbar class="navbar">
         <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li style="float:right"><a href="#about">About</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="suits.html">Suits</a></li>
+            <li><a href="wedding.html">Weddings</a></li>
+            <li><a href="gift.html">Gifts</a></li>
+            <li><a href="showroom.html">Showroom</a></li>
+            <li style="float:right"><a href="login.html">Login</a></li>
         </ul>
-    </div>
+    </navbar>
+
     <div class="slideshow-container">
         <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="images/img.png" style="width:100%">
+            <img src="https://i.ibb.co/4tT5j2D/img.png" alt="img">
             <div class="text"><b> CREATE YOUR
                 <br>INDIVIDUALITY</b></div>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="images/img_1.png" style="width:100%">
+            <img src="https://i.ibb.co/fMtY8cM/img-16.png" alt="img-16">
         </div>
         <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="images/img_2.png" style="width:100%">
+            <img src="https://i.ibb.co/PtKLxQ1/img-2.png" alt="img-2">
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
+
     <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-    <h1>Bizning Jamoa</h1>
+    <h1 class="best">BEST SELLERS</h1>
     <div class="block">
         <div class="box">
-            <img class="image1" align="center" src="images/img_3.png" alt="">
+            <img class="image1" src="https://i.ibb.co/jRjR8T4/img-3.png" alt="">
             <div class="content">
                 <div class="word">
-                    <p class="header">Brandon Richards</p>
-                    <p class="dif">Fotograf,Bosh dizayner</p>
+                    <div>
+                        <p>Feugiat justo lacinia</p>
+                        <fieldset>
+                            <legend><p class="star"> &starf;&starf;&starf;&starf;&star;</p></legend>
+                            <div>
+                                <div>
+                                    <del>$80.00</del>
+                                    <span>$70.00</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn">
+                                        Add to card
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="box">
-            <img class="image1" align="center" src="images/img_4.png" alt="">
+            <img class="image1" src="https://i.ibb.co/2syTS5x/img-4.png" alt="">
             <div class="content">
                 <div class="word">
-                    <p class="header">Brandon Richards</p>
-                    <p class="dif">Fotograf,Bosh dizayner</p>
+                    <div>
+                        <p>Feugiat justo lacinia</p>
+                        <fieldset>
+                            <legend><p class="star"> &starf;&starf;&starf;&starf;&starf;</p></legend>
+                            <div>
+                                <div>
+                                    <del>$50.00</del>
+                                    <span>$30.00</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn">
+                                        Add to card
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="box">
-            <img class="image1" align="center" src="images/img_5.png" alt="">
+            <img class="image1" src="https://i.ibb.co/YQt8cKf/img-5.png" alt="">
             <div class="content">
                 <div class="word">
-                    <p class="header">Brandon Richards</p>
-                    <p class="dif">Fotograf,Bosh dizayner</p>
+                    <div>
+                        <p>Feugiat justo lacinia</p>
+
+                        <fieldset>
+                            <legend><p class="star"> &starf;&starf;&starf;&starf;&star;</p></legend>
+                            <div>
+                                <div>
+                                    <span>$90.00</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn">
+                                        Add to card
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image1" src="https://i.ibb.co/9Yr57LV/img-6.png" alt="">
+            <div class="content">
+                <div class="word">
+                    <div>
+                        <p>Feugiat justo lacinia</p>
+                        <fieldset>
+                            <legend><p class="star"> &starf;&starf;&starf;&starf;&star;</p></legend>
+                            <div>
+                                <div>
+                                    <del>$80.00</del>
+                                    <span>$70.00</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn">
+                                        Add to card
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="block">
+        <div class="box">
+            <img class="image1" src="https://i.ibb.co/Phhbfj6/img-7.png" alt="">
+            <div class="content">
+                <div class="word">
+                    <div>
+                        <p>Feugiat justo lacinia</p>
+                        <fieldset>
+                            <legend><p class="star"> &starf;&starf;&starf;&starf;&star;</p></legend>
+                            <div>
+                                <div>
+                                    <del>$80.00</del>
+                                    <span>$70.00</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn">
+                                        Add to card
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image1" src="https://i.ibb.co/9959KKt/img-8.png" alt="">
+            <div class="content">
+                <div class="word">
+                    <div>
+                        <p>Feugiat justo lacinia</p>
+                        <fieldset>
+                            <legend><p class="star"> &starf;&starf;&starf;&starf;&starf;</p></legend>
+                            <div>
+                                <div>
+                                    <del>$50.00</del>
+                                    <span>$30.00</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn">
+                                        Add to card
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image1" src="https://i.ibb.co/bBJ5hHn/img-9.png" alt="">
+            <div class="content">
+                <div class="word">
+                    <div>
+                        <p>Feugiat justo lacinia</p>
+                        <fieldset>
+                            <legend><p class="star"> &starf;&starf;&starf;&starf;&star;</p></legend>
+                            <div>
+                                <div>
+                                    <span>$90.00</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn">
+                                        Add to card
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image1" src="https://i.ibb.co/DDRXMyV/img-10.png" alt="">
+            <div class="content">
+                <div class="word">
+                    <div>
+                        <p>Feugiat justo lacinia</p>
+                        <fieldset>
+                            <legend><p class="star"> &starf;&starf;&starf;&starf;&star;</p></legend>
+                            <div>
+                                <div>
+                                    <del>$80.00</del>
+                                    <span>$70.00</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn">
+                                        Add to card
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="box">
+            <a href="suits.html">
+                <img src="https://i.ibb.co/DDRXMyV/img-10.png"  alt="">
+                <div class="link"><p> <b> SUITS &
+                    <br>BLAZERS</b></p></div>
+            </a>
+
+        </div>
+        <div class="box">
+            <a href="suits.html">
+                <img src="https://i.ibb.co/NmFSpSD/img-11.png" alt="">
+                <div class="link"><p><b>COATS &
+                    JACKETS</b></p> </div>
+            </a>
+
+        </div>
+        <div class="box">
+            <a href="suits.html">
+                <img src="https://i.ibb.co/sy729YC/img-14.png"  alt="">
+                <div class="link"><p><b>SPORTS
+                    JACKETS</b></p></div>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="box">
+                <div class="offers" >
+                    <h1 class="offer">FREE SHIPPING</h1>
+                    <p class="offer_word">Lorem ipsum dolor sit amet.</p>
+                </div>
+        </div>
+        <div class="box" >
+            <div class="offers">
+                <h1 class="offer">CALL US: 017 - 372 7720</h1>
+                <p class="offer_word">HOURS: 9AM - 7PM MON-FRI</p>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="offers">
+                <h1 class="offer">SEND A GIFT</h1>
+                <p class="offer_word">CHOOSE FROM ANY OF OUR EXTENSIVE RANGE</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="flex">
+            <div class="footer">
+                <ul>
+                    <p>Information</p>
+
+                    <li>About us</li>
+                    <li>Customer Service</li>
+                    <li>Privacy Policy</li>
+                    <li>Site Map</li>
+                    <li>Search Terms</li>
+                    <li>Advanced Search</li>
+                    <li>Orders and Returns</li>
+                </ul>
+                <ul>
+                    <p>Why buy from us</p>
+
+                    <li>Shipping & Returns</li>
+                    <li>Secure Shopping</li>
+                    <li>International Shipping</li>
+                    <li>Affiliates</li>
+                    <li>Group Sales</li>
+                </ul>
+                <ul>
+                    <p>My account</p>
+
+                    <li><a href="login.html">Sign In</a></li>
+                    <li>View Cart</li>
+                    <li>My Wishlist</li>
+                    <li>Track My Order</li>
+                    <li>Help</li>
+                </ul>
+                <ul class="contacts">
+                    <p>Contacts</p>
+                    <li>Design Studio</li>
+                    <li>Call us now toll free: 017 - 372 7720  </li>
+
+                </ul>
+
+            </div>
+            <p style="text-align: center">© 2021. All rights reserved.</p>
+        </div>
+    </div>
+
 </div>
 
 
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

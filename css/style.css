@@ -1,0 +1,362 @@
+* {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.navbar > ul > li {
+    float: left;
+}
+
+.navbar > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar > ul > li > a:hover {
+    background-color: #111;
+}
+a{
+    text-decoration: none;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1180px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.btn {
+    padding: 0.85rem 1.2rem;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #4183b2;
+    color: white;
+    border-radius: 8px;
+    transition: 1s all;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    border-radius: 50px;
+
+    border: none;
+}
+
+.btn:active {
+    background-color: seagreen;
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.best {
+    margin-top: 15px;
+    text-align: center;
+    color: #717171;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 60px;
+    padding: 8px 10%;
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    text-align: left;
+
+}
+.giftText{
+    color: #f2f2f2;
+    font-size: 40px;
+    padding: 8px 10%;
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.word {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 20px;
+}
+
+.star {
+    color: goldenrod !important;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.shape1 {
+    position: absolute;
+    left: 220px;
+    top: 10px;
+    width: 150px;
+}
+
+.shape2 {
+    position: absolute;
+    width: 133px;
+    bottom: 100px;
+    right: 195px;
+}
+
+img {
+    width: 100%;
+}
+
+.box {
+    box-sizing: border-box;
+    margin-top: 1rem;
+    background-color: #fffdf6;
+    transition: all 1s;
+    margin-left: 15px;
+    width: 100%;
+
+}
+
+.box:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+}
+
+.flex{
+    position: relative;
+    margin-top: 1rem;
+    background-color: #fffdf6;
+    margin-left: 15px
+}
+.forBox{
+    position: relative;
+    margin-top: 1rem;
+    background-color: #fffdf6;
+}
+
+.link {
+    linear-gradient(to right, #f6d365, #fda085);
+    color: #efdfdf;
+    font-size: 30px;
+    padding: 8px 27%;
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    text-align: left;
+
+}
+.link>p{
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.offers {
+    width: 350px;
+    text-align: center;
+}
+.block>.box>a>img{
+    width: 350px;height: 300px
+}
+
+.offer_word {
+    font-size: 15px;
+    color: #717171;
+    margin-top: 10px;
+}
+
+.offer {
+    font-size: 20px;
+    color: #04AA6D;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 1078px;
+
+}
+
+.footer > ul {
+
+    list-style-type: none;
+    margin: 1px 15px;
+    padding: 1rem;
+    overflow: hidden;
+    margin-right: 30px;
+
+}
+
+.footer > ul > li {
+    margin-top: 1rem;
+    color: #717171;
+    font-size: 13px;
+
+}
+
+.main {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.sub-div {
+    width: calc(100% / 2);
+    height: 600px;
+}
+.center{
+    text-align: center;
+    margin: 35% auto;
+    width: 80%;
+    padding: 10px;
+    color: #717171;
+
+}
+.mid{
+    text-align: center;
+    margin: 4% auto;
+    width: 80%;
+    padding: 13px;
+    color: #717171;
+}
+.showroom{
+    text-align: center;
+    padding: 1rem;
+    color: #717171;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
+
