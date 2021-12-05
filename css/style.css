@@ -7,7 +7,7 @@ body {
     background-color: #f5f5f5;
 }
 
-.navbar > ul {
+navbar > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     background-color: #333;
 }
 
-.navbar {
+navbar {
     margin: auto;
     width: 100%;
     padding: 10px;
@@ -27,11 +27,11 @@ body {
     padding: 10px 0px;
 }
 
-.navbar > ul > li {
+navbar > ul > li {
     float: left;
 }
 
-.navbar > ul > li > a {
+navbar > ul > li > a {
     display: block;
     color: white;
     text-align: center;
@@ -40,7 +40,7 @@ body {
 }
 
 /* Change the link color to #111 (black) on hover */
-.navbar > ul > li > a:hover {
+navbar > ul > li > a:hover {
     background-color: #111;
 }
 a{
@@ -297,11 +297,52 @@ img {
     font-size: 13px;
 
 }
+.main {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
 
+.sub-div {
+    width: calc(100% / 2);
+    height: 600px;
+}
+.center{
+    text-align: center;
+    margin: 35% auto;
+    width: 80%;
+    padding: 10px;
+    color: #717171;
+
+}
+.mid{
+    text-align: center;
+    margin: 4% auto;
+    width: 80%;
+    padding: 13px;
+    color: #717171;
+}
+.showroom{
+    text-align: center;
+    padding: 1rem;
+    color: #717171;
+}
 .contacts {
     /*margin-left: 100px;*/
 }
-
+.giftText{
+    color: #f2f2f2;
+    font-size: 40px;
+    padding: 8px 10%;
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    text-align: center;
+}
+.forBox{
+    position: relative;
+    margin-top: 1rem;
+    background-color: #fffdf6;
+}
 @-webkit-keyframes fade {
     from {
         opacity: .4
