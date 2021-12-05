@@ -25,3 +25,16 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+// login from when submit check and redirect index page
+function login() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if (username === "admin" && password === "admin") {
+        window.location.href = "index.html";
+    } else {
+        alert("Username or password is incorrect");
+    }
+
+
+}
