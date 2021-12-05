@@ -340,10 +340,15 @@ img {
     font-size: 13px;
 
 }
+.footer > ul > li:first-child {
+    margin-top: 1rem;
+    color: black;
+    font-size: 15px;
 
-.contacts {
-    /*margin-left: 100px;*/
 }
+
+
+
 
 @-webkit-keyframes fade {
     from {
