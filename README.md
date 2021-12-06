@@ -35,4 +35,5 @@ JavaScrpit
 
 # Contact
 Linkedin - https://www.linkedin.com/in/alibek-khudoykulov-5865ba207
+
 Project link - https://github.com/00011904/cw_web_technology
