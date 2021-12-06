@@ -374,3 +374,16 @@ img {
         font-size: 11px
     }
 }
+@media (max-width: 767px) {
+    *{
+        font-size: 12px;
+        max-width: 100%;
+    }
+   .main{
+       width: 100%;
+   }
+    .sub-div{
+        width: 100%;
+        margin-top: 0px;
+    }
+}
